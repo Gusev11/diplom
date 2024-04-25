@@ -1,0 +1,1047 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* container header */
+
+.header{
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+	/* padding: 20px 82px 9px 78px; */
+}
+
+.header .shapka{
+	display: flex;
+	column-gap: 32px;
+	justify-content: space-between;
+	padding: 20px 82px 17px 50px;
+}
+
+.header .shapka .link-nav{
+	display: flex;
+	align-items: center;
+	column-gap: 25px;
+}
+
+.header .shapka .link-nav div a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 187%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.header .shapka .link-nav .list{
+	display: grid;
+	align-items: center;
+	column-gap: 4px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 187%;
+	color: #fff;
+}
+
+.header .shapka .link-nav .list img{
+	width: 9px;
+	height: 5px;
+	grid-column: 2;
+}
+
+.header .shapka .link-nav .list .list2{
+	display: none;
+}
+
+.header .shapka .link-nav .list .list2:hover{
+	display: block;
+	position: relative;
+	top: 45px;
+}
+
+.header .shapka .link-nav .click .list2:hover{
+	display: block;
+	position: relative;
+	top: 45px;
+}
+
+.header .shapka .link-nav .list p:hover{
+	position: relative;
+	top: 45px;
+}
+
+.header .shapka .link-nav .list p:hover ~ img{
+	position: relative;
+	top: 45px;
+}
+
+.header .shapka .link-nav .list p:hover ~ .list2{
+	position: relative;
+    display: inline-block;
+	top: 45px;
+}
+
+.header .shapka .link-nav .click p:hover{
+	position: relative;
+	top: 30px;
+}
+
+.header .shapka .link-nav .click p:hover ~ img{
+	position: relative;
+	top: 30px;
+}
+
+.header .shapka .link-nav .click p:hover ~ .list2{
+	position: relative;
+    display: inline-block;
+	top: 30px;
+}
+
+.header .shapka .link-nav .list .list2 a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 187%;
+	color: #fff;
+}
+
+.header .shapka .icons{
+	display: flex;
+	column-gap: 24px;
+	align-items: center;
+}
+
+.header .shapka .icons .burger{
+	display: none;
+}
+
+.header .shapka .contact-shapka .number a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 127%;
+	letter-spacing: 0.03em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.header .shapka .contact-shapka .address p,
+.header .shapka .contact-shapka .time-work p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 200%;
+	color: #fff;
+}
+
+.header .main{
+	display: flex;
+}
+
+.header .main .text-info{
+	padding-top: 127px;
+	padding-left: 78px;
+}
+
+.header .main .text-info .title-info{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 96px;
+	line-height: 81%;
+	color: #fff;
+	padding-bottom: 16px;
+}
+
+.header .main .text-info .atelye{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	line-height: 127%;
+	font-size: 48px;
+	line-height: 129%;
+	color: #fff;
+	padding-bottom: 40px;
+}
+
+.header .main .text-info .uslugi{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%;
+	color: #fff;
+	padding-bottom: 40px;
+}
+
+.header .main .text-info .btn{
+	border-radius: 50px;
+	padding: 16px 52px;
+	width: 386px;
+	height: 60px;
+	background: linear-gradient(136deg, #ffbd1c 0%, #fef786 34.13%, #ffe95b 54.1%, #ffd530 83.67%, #ffff8b 100%, #ffff8b 100%);
+	text-align: center;
+	align-content: center;
+}
+
+.header .main .text-info .btn button{
+	background-color: transparent;
+	border: none;
+}
+
+.header .main .text-info .btn p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 156%;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	color: #002467;
+}
+
+.header .main .image-divan img:last-child{
+	display: none;
+}
+
+/* container about us */
+
+.about > h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 148%;
+	text-align: center;
+	color: #002467;
+	padding-top: 80px;
+	padding-bottom: 72px;
+}
+
+.about > p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #002467;
+	padding-left: 188px;
+	padding-right: 188px;
+}
+
+.about .about-info{
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 100px 100px 100px;
+}
+
+.about .about-info div{
+	display: block;
+	width: 234px;
+}
+
+.about .about-info h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 129%;
+	text-align: center;
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.about .about-info p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	color: #002467;
+}
+
+/* контейнер номер 3 Наши услуги */
+
+.uslugi-main{
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+}
+
+.uslugi-main .title-uslugi > h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 148%;
+	text-align: center;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.uslugi-main .title-uslugi > p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 94%;
+	text-align: center;
+	color: #fff;
+}
+
+.uslugi-main .title-uslugi .vubor-uslugi{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.uslugi-main .title-uslugi .vubor-uslugi .images-uslugi img{
+	width: 100%;
+}
+
+.uslugi-main .title-uslugi .vubor-uslugi .third-img img:last-child{
+	display: none;
+}
+
+/* .uslugi-main .title-uslugi .vubor-uslugi .info-left,
+.uslugi-main .title-uslugi .vubor-uslugi .info-right{
+	width: 590px;
+} */
+
+.uslugi-main .title-uslugi .vubor-uslugi .info-left{
+	padding-left: 168px;
+}
+
+.uslugi-main .title-uslugi .vubor-uslugi .info-right{
+	padding-left: 70px;
+}
+
+.uslugi-main .title-uslugi .vubor-uslugi .info-left h2,
+.uslugi-main .title-uslugi .vubor-uslugi .info-right h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 143%;
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 264px;
+	margin-bottom: 24px;
+}
+
+.uslugi-main .title-uslugi .vubor-uslugi .info-left p,
+.uslugi-main .title-uslugi .vubor-uslugi .info-right p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%;
+	color: #fff;
+	margin-bottom: 24px;
+}
+
+.uslugi-main .title-uslugi .vubor-uslugi .info-left a,
+.uslugi-main .title-uslugi .vubor-uslugi .info-right a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 210%;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	color: #fff;
+}
+
+/* контейнер заявки */
+
+.zayavka .title{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 150%;
+	text-align: center;
+	color: #002467;
+	padding-top: 80px;
+	width: 55%;
+    margin: 0 auto
+}
+
+.zayavka .info{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%;
+	text-align: center;
+	color: #002467;
+	padding-top: 40px;
+}
+
+.zayavka .btn{
+	background: linear-gradient(136deg, #ffbd1c 0%, #fef786 34.13%, #ffe95b 54.1%, #ffd530 83.67%, #ffff8b 100%, #ffff8b 100%);
+	border-radius: 50px;
+	padding: 16px 52px;
+	width: 291px;
+	height: 60px;
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.zayavka .btn button{
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	height: 100%;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 156%;
+	text-transform: uppercase;
+	text-align: center;
+	color: #002467;
+}
+
+/* контейнер преимущества работы */
+
+.preim{
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+	padding-left: 152px;
+	padding-right: 152px;
+	padding-bottom: 100px;
+}
+
+.preim .title{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 148%;
+	text-align: center;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 72px;
+}
+
+.preim .columns{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+	column-gap: 100px;
+	row-gap: 80px;
+}
+
+.preim .columns .inform-preim img{
+	padding-bottom: 12px;
+}
+
+.preim .columns .inform-preim h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 136%;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 12px;
+}
+
+.preim .columns .inform-preim p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #fff;
+}
+
+/* контейнер фотографии */
+
+.photos .title h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 148%;
+	text-align: center;
+	color: #002467;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.photos .title p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 150%;
+	text-align: center;
+	color: #002467;
+	padding-bottom: 52px;
+	width: 62%;
+	margin: 0 auto;
+}
+
+.photos .rabotu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 16px;
+	row-gap: 16px;
+	padding-bottom: 72px;
+}
+
+.photos .rabotu .divanu:first-child{
+	width: 308px;
+}
+
+.photos .rabotu .divanu{
+	width: 308px;
+}
+
+.photos .rabotu .divanu div{
+	border: 2px solid rgba(0, 36, 103, 0.4);
+	border-radius: 9px;
+	width: 308px;
+	height: 320px;
+	box-shadow: 1px 1px 4px 0 rgba(0, 36, 103, 0.45);
+	background: #fff;
+}
+
+.photos .rabotu .divanu1 div{
+	border: 2px solid rgba(0, 36, 103, 0.4);
+	border-radius: 9px;
+	width: 632px;
+	height: 320px;
+	box-shadow: 1px 1px 4px 0 rgba(0, 36, 103, 0.45);
+	background: #fff;
+	text-align: center;
+	align-content: center;
+}
+
+.photos .rabotu .divanu1 div img{
+	width: 80%;
+}
+
+.photos .rabotu .divanu p,
+.photos .rabotu .divanu1 p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #002467;
+	width: 70%;
+}
+
+.photos div button{
+	border-radius: 50px;
+	padding: 16px 50px;
+	width: 254px;
+	height: 60px;
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 156%;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+/* контейнер выбор тканей */
+
+.tkani{
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+}
+
+.tkani .title h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 148%;
+	text-align: center;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.tkani .title p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 125%;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.tkani .tkani-carousel{
+	padding: 0 55px 100px 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* контейнер нам доверяют */
+
+.doverie .title h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 148%;
+	text-align: center;
+	color: #002467;
+	padding-top: 80px;
+	padding-bottom: 72px;
+}
+
+.doverie .doverie-carousel{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-bottom: 100px;
+}
+
+/* контейнер отзывы */
+
+.otzuvu{
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+	height: 100%;
+}
+
+.otzuvu .title h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 148%;
+	text-align: center;
+	color: #fff;
+	padding-top: 88px;
+	padding-bottom: 52px;
+}
+
+.otzuvu .bg-text p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-size: 260px;
+	line-height: 100%;
+	text-align: center;
+	text-decoration: solid;
+	color: transparent;
+	-webkit-text-stroke: 2px grey;
+}
+
+.otzuvu .bg-text .text{
+    position: relative;
+    float: left;
+}
+
+.otzuvu .bg-text .middle-text{
+	position: relative;
+    float: right;
+}
+
+.otzuvu .bg-text .left-text{
+	position: relative;
+    float: left;
+    left: -300px;
+}
+
+.otzuvu .otzuv-image{
+	position: relative;
+    top: -770px;
+    text-align: center;
+	margin-bottom: -630px;
+}
+
+.otzuvu button{
+	background: linear-gradient(136deg, #ffbd1c 0%, #fef786 34.13%, #ffe95b 54.1%, #ffd530 83.67%, #ffff8b 100%, #ffff8b 100%);
+	border-radius: 50px;
+	padding: 16px 50px;
+	width: 284px;
+	height: 60px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 156%;
+	text-transform: uppercase;
+	text-align: center;
+	color: #002467;
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+	top: -88px;
+}
+
+/* контейнер стоимость */
+
+.cost{
+	display: flex;
+	padding-top: 57px;
+	padding-left: 80px;
+}
+
+.cost .rectangle{
+	float: right;
+}
+
+.cost .title h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 150%;
+	color: #002467;
+	padding-bottom: 20px;
+}
+
+.cost .title p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #002467;
+	padding-bottom: 20px;
+}
+
+.cost .form form{
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 12px;
+	padding-bottom: 12px;
+}
+
+.cost .form form input{
+	border: 1px solid #002467;
+	border-radius: 10px;
+	padding: 12px 59px 12px 40px;
+	width: 524px;
+	height: 54px;
+}
+
+.cost .form form input::placeholder{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: rgba(0, 36, 103, 0.4);
+}
+
+.cost .after-form a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 210%;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	color: #002467;
+}
+
+.cost .after-form p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #002467;
+	padding-top: 12px;
+	padding-bottom: 24px;
+}
+
+.cost button{
+	background: linear-gradient(136deg, #ffbd1c 0%, #fef786 34.13%, #ffe95b 54.1%, #ffd530 83.67%, #ffff8b 100%, #ffff8b 100%);
+	border-radius: 50px;
+	padding: 16px 50px;
+	width: 360px;
+	height: 60px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 156%;
+	text-transform: uppercase;
+	text-align: center;
+	color: #002467;
+	border: none;
+	margin-bottom: 100px;
+}
+
+/* контейнер частые вопросы */
+
+.questions{
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+}
+
+.questions .title h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 148%;
+	text-align: center;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 72px;
+}
+
+.questions .info{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	row-gap: 20px;
+	padding-bottom: 100px;
+}
+
+.questions .info .descr-info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	padding: 11px 28px 11px 40px;
+	width: 1060px;
+	height: 58px;
+}
+
+.questions .info .descr-info p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 136%;
+	color: #fff;
+}
+
+/* контейнер контакты и карта */
+
+.contact .contact1{
+	box-shadow: 4px 4px 4px 0 rgba(8, 32, 88, 0.25);
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+	border-radius: 20px;
+	padding: 28px 120px 28px 52px;
+	width: 25%;
+	height: 566px;
+	position: relative;
+	top: 650px;
+    left: 187px;
+    margin-top: -691px;
+}
+
+.contact .contact1 h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 148%;
+	color: #fff;
+	padding-bottom: 32px;
+}
+
+.contact .fixed-strelka{
+z-index: 2;
+position: fixed;
+top: 87%;
+left: 90%;
+}
+
+.contact .contact1 .address{
+	display: flex;
+	column-gap: 12px;
+	padding-bottom: 4px;
+}
+
+.contact .contact1 .address p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	color: #fff;
+}
+
+.contact .contact1 .address1 > p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #fff;
+}
+
+.contact .contact1 .address1 > p:last-child{
+	font-size: 14px;
+	line-height: 150%;
+	padding-bottom: 28px;
+}
+
+.contact .contact1 .work-time{
+	display: flex;
+	column-gap: 12px;
+	padding-bottom: 4px;
+}
+
+.contact .contact1 .work-time p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	color: #fff;
+}
+
+.contact .contact1 .work-time1 p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #fff;
+	padding-bottom: 28px;
+}
+
+.contact .contact1 .call{
+	display: flex;
+	column-gap: 12px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	color: #fff;
+	padding-bottom: 4px;
+}
+
+.contact .contact1 .number{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #fff;
+}
+
+.contact .contact1 .number a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.contact .contact1 .email{
+	display: flex;
+	column-gap: 12px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	color: #fff;
+	padding-bottom: 4px;
+	padding-top: 28px;
+}
+
+.contact .contact1 .email1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #fff;
+}
+
+.contact .contact1 .email1 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/* контейнер подвал сайта */
+
+.footer{
+	background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+	padding: 46px 88px 52px 88px;
+}
+
+.footer .links-footer{
+	display: flex;
+	column-gap: 86px;
+	padding-bottom: 39px;
+	justify-content: center;
+}
+
+.footer .links-footer .vk h3{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 214%;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.footer .links-footer .uslugi div p,
+.footer .links-footer .pay-person div p,
+.footer .links-footer .about-us div p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 214%;
+	color: #fff;
+	padding-bottom: 16px;
+}
+
+.footer .links-footer .uslugi div a,
+.footer .links-footer .pay-person div a,
+.footer .links-footer .about-us div a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 214%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer .links-footer .contact-footer div{
+	padding-bottom: 12px;
+}
+
+.footer .links-footer .contact-footer div a{
+	font-family: "Montserrat", sans-serif;	
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 136%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer .links-footer .contact-footer .links-social{
+	display: flex;
+	padding-bottom: 20px;
+	column-gap: 4px;
+}
+
+.footer .copyright p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 214%;
+	color: #fff;
+	text-align: center;
+}

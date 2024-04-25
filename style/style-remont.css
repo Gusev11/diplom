@@ -1,0 +1,177 @@
+.specialist{
+    background: linear-gradient(156deg, #002367 0%, #002668 10.42%, #002e76 22.92%, #013c89 36.98%, #043b88 48.96%, #083780 65.11%, #00276b 80.74%, #00174b 100%);
+}
+
+.specialist .title h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 148%;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 72px;
+}
+
+.specialist .when-help{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: 0 auto;
+	padding-bottom: 100px;
+	column-gap: 110px;
+	row-gap: 80px;
+}
+
+.specialist .when-help div{
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.specialist .when-help div p{
+    font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	text-align: left;
+	color: #fff;
+    padding-left: 20px;
+}
+
+.osnovnoe .title h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 148%;
+    text-align: center;
+    color: #002467;
+    padding-top: 80px;
+    padding-bottom: 44px;
+}
+
+.osnovnoe .list{
+    padding: 0 273px;
+    padding-bottom: 28px;
+}
+
+.osnovnoe .list div{
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.osnovnoe .list .none-flex{
+    display: block;
+}
+
+.osnovnoe .list div p{
+    border-bottom: 3px solid #002467;
+    margin-left: 34px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #002467;
+}
+
+.osnovnoe .list div .none-border{
+    border-bottom: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #002467;
+}
+
+.osnovnoe .list .none-flex p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #002467;
+    border-bottom: none;
+    padding-bottom: 36px;
+    margin-left: 0;
+    padding-left: 94px;
+}
+
+.osnovnoe .list .none-flex ul{
+    padding-bottom: 30px;
+    padding-left: 94px;
+}
+
+.osnovnoe .list .none-flex ul li{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #002467;
+    padding-bottom: 6px;
+}
+
+.osnovnoe button{
+    border-radius: 50px;
+    padding: 16px 50px;
+    width: 386px;
+    height: 60px;
+    background: linear-gradient(136deg, #ffbd1c 0%, #fef786 34.13%, #ffe95b 54.1%, #ffd530 83.67%, #ffff8b 100%, #ffff8b 100%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #002467;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.steps1 .title1 h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 148%;
+    text-align: center;
+    color: #002467;
+    padding-bottom: 48px;
+    padding-top: 80px;
+}
+
+.steps1 .step-by-step1{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.steps1 .step-by-step1 .block1{
+    width: 20%;
+}
+
+.steps1 .step-by-step1 .block1 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.steps1 .step-by-step1 .block1 h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #002467;
+    padding-bottom: 20px;
+}
+
+.steps1 .step-by-step1 .block1 p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #002467;
+}

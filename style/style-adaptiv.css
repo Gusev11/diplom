@@ -1,0 +1,303 @@
+@media screen and (min-width: 1700px){
+    .otzuvu .bg-text .left-text{
+        float: inherit;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .header .shapka{
+        padding: 15px 15px;
+    }
+}
+
+@media screen and (max-width: 1330px){
+    .header .shapka .icons .burger{
+        display: block;
+    }
+
+    .header .shapka .link-nav .nav-last a{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .header .main{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .header .main .image-divan img{
+        width: 100%;
+    }
+    .header .main .text-info{
+        padding-top: 0;
+    }
+
+    .header .shapka .link-nav .nav-five{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    /* .otzuvu .bg-text p{
+        font-size: 220px;
+    } */
+
+    .otzuvu .bg-text .text{
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    .header .shapka .link-nav .nav-four{
+        display: none;
+    }
+    
+    .doverie .doverie-carousel .strelka img{
+        display: none;
+    }
+
+    .doverie .doverie-carousel .tkan img{
+        width: 100%;
+    }
+
+    .tkani .tkani-carousel div img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .header .main .text-info .title-info{
+        padding-bottom: 10px;
+    }
+
+    .header .main .text-info .atelye{
+        padding-bottom: 10px;
+    }
+
+    .header .main .text-info .uslugi{
+        padding-bottom: 10px;
+    }
+
+    .header .shapka{
+        column-gap: 0;
+    }
+
+    .header .shapka .link-nav div,
+    .header .shapka .link-nav{
+        display: none;
+    }
+/* 
+    .otzuvu .bg-text p{
+        font-size: 170px;
+    } */
+
+    .footer .links-footer{
+        column-gap: 20px;
+    }
+
+    .header .main .text-info .btn{
+        width: 80%;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .uslugi-main .title-uslugi .vubor-uslugi .info-right{
+        padding-left: 0;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .info-left{
+        padding-left: 73px;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .info-left h2, .uslugi-main .title-uslugi .vubor-uslugi .info-right h2{
+        padding-top: 100px;
+    }
+
+    .cost{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .cost .form form{
+        display: grid;
+    }
+
+    .cost .form form input{
+        width: 100%;
+    }
+
+    .otzuvu .bg-text .left-text{
+        float: right;
+        left: 0;
+    }
+
+    .preim{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer .links-footer .vk img{
+        width: 100%;
+    }
+
+    .contact .fixed-strelka{
+        left: 85%;
+    }
+
+    .header .main .text-info{
+        padding-left: 20px;
+    }
+
+    .about .about-info{
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer .links-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer .links-footer .contact-footer{
+        grid-column: 3;
+    }
+
+    .contact .contact1{
+        left: 30px;
+        width: 30%;
+    }
+
+    .preim .columns{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header .main .image-divan img:first-child{
+        display: none;
+    }
+
+    .header .main .image-divan img:last-child{
+        display: block;
+    }
+
+    .header .main .text-info .title-info{
+        font-size: 80px;
+    }
+
+    .about .about-info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact .fixed-strelka{
+        left: 75%;
+    }
+
+    .cost .rectangle{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .photos .rabotu .divanu1 div{
+        width: 90%;
+    }
+
+    .otzuvu .otzuv-image img{
+        width: 90%
+    }
+
+    .contact .contact1{
+        width: 50%;
+    }
+
+    .uslugi-main{
+        padding-bottom: 80px;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .images-uslugi{
+        align-self: center;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .first-img{
+        grid-column: 2;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .first-text{
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 10px;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .second-text{
+        padding-left: 10px;
+    }
+    
+    .uslugi-main .title-uslugi .vubor-uslugi .third-text{
+        padding-left: 10px;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .third-img img:first-child{
+        display: none;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .third-img img:last-child{
+        display: block;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .third-img{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .uslugi-main .title-uslugi .vubor-uslugi .fourth-text{
+        padding-left: 10px;
+    }
+
+    .main .image-divan{
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .preim .columns{
+        grid-template-columns: 1fr;
+    }
+    .cost{
+        padding-left: 10px;
+    }
+    .cost button{
+        width: 150%;
+        height: 6%;
+    }
+    .contact .contact1{
+        width: 80%;
+        padding: 15px;
+    }
+    .header .shapka{
+        flex-wrap: wrap;
+        row-gap: 15px;
+        justify-content: center;
+    }
+
+    .about > p{
+        padding: 0 10px;
+    }
+    .zayavka .btn{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .contact .fixed-strelka{
+        left: 65%;
+    }
+    .header .main .text-info .title-info{
+        font-size: 60px;
+    }
+    .photos .title h2{
+        font-size: 38px;
+    }
+}
